@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    >
+    <TextView
+
+        tools:text="7.1"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:layout_marginRight="16dp"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:textSize="16sp"
+        android:id="@+id/streash"
+        android:background="@drawable/magnitude_circle"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/streash"
+        android:maxWidth="160dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            tools:text="John Do"
+
+            android:id="@+id/city"
+            android:textSize="12sp"
+            android:scrollHorizontally="false"
+
+            android:maxWidth="160dp"
+            android:textColor="#a8878787" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fe565656"
+            tools:text="hallo"
+            android:textSize="16sp"
+            android:id="@+id/cityname"
+            android:maxWidth="200dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="john"
+        android:layout_alignParentRight="true"
+        android:maxWidth="80dp"
+        android:textSize="12sp"
+
+        android:id="@+id/data"/>
+
+
+</RelativeLayout>
